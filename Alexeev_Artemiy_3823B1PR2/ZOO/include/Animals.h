@@ -1,4 +1,4 @@
-#pragma once;
+#pragma once
 
 #include <string>
 #include <iostream>
@@ -42,4 +42,9 @@ public:
     int get_age();
     void replace(Animals& a);
     void give_voice();
+};
+
+class A{
+public:
+    int a = 10;
 };
