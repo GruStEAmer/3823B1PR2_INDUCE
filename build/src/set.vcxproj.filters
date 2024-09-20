@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\AlgDS\3823B1PR2_INDUCE\lab1_bitset\template\src\tbitfield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\AlgDS\3823B1PR2_INDUCE\lab1_bitset\template\src\tset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\AlgDS\3823B1PR2_INDUCE\lab1_bitset\template\include\tbitfield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\AlgDS\3823B1PR2_INDUCE\lab1_bitset\template\include\tset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\AlgDS\3823B1PR2_INDUCE\lab1_bitset\template\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{929197B5-3819-3904-AB8A-28106DB89190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73969AD2-78B6-3F22-9056-7BAF5D6A63EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
