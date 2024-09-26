@@ -1,0 +1,10 @@
+^D:\ALGDS\3823B1PR2_INDUCE\LAB1_BITSET\TEMPLATE\GTEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/AlgDS/3823B1PR2_INDUCE/lab1_bitset/template -BD:/AlgDS/3823B1PR2_INDUCE/build --check-stamp-file D:/AlgDS/3823B1PR2_INDUCE/build/gtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
