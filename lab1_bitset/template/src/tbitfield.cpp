@@ -115,14 +115,14 @@ int TBitField::operator!=(const TBitField &bf) const // сравнение
 TBitField TBitField::operator|(const TBitField& bf) // операция "или"
 {
     if (BitLen < bf.BitLen) {
-        TBitField a(bf.BitLen);
+        TBitField a(bf);
         for (int i = 0; i < MemLen; i++) {
             a.pMem[i] = pMem[i] | bf.pMem[i];
         }
         return a;
     }
     else {
-        TBitField a(BitLen);
+        TBitField a(*this);
         for (int i = 0; i < bf.MemLen; i++) {
             a.pMem[i] = pMem[i] | bf.pMem[i];
         }
